@@ -26,15 +26,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        
-    - name: linting
-      uses: TanatchaLee/pylinters@v1.4.2
-      with:
-        python-root: '.'
-        flake8-flags: ''
-        mypy-flags: '--ignore-missing-imports'
-        fail-on-isort: false
-        skip-flake8: true
 
     - name: commit isort changes
       run: |
