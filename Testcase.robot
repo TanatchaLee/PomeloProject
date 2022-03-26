@@ -13,7 +13,7 @@ Register
      Create Account
      Close QR code
 
- Add item into cart
+Add item into cart
     Go to Exclusive Item
     Select 1st Item
     Select 1st Item Option
